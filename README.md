@@ -189,7 +189,7 @@ pip install pillow
 
 **Can you get banned for using this?**
 
-Yes, there is a risk. However, there are many similar such scripts and clients out there with no reported bans.
+  - Yes, there is a risk. However, there are many similar such scripts and clients out there with no reported bans.
 
 
 **To get Ctrl + Shift + I to work, do ONE of these:**
@@ -884,4 +884,5 @@ Public License instead of this License.  But first, please read
 
 
 </details>
+
 
