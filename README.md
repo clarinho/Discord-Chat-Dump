@@ -135,9 +135,9 @@ How to use this script (read all steps before proceeding):
 
 4. You will need your user ID and the server IDs of the servers you are scraping. To do this, go to settings in Discord, type 'developer' > click advanced > enable developer mode.
 5. How to get IDs:
-  5a. To get your user ID -> Click your profile in the bottom left > copy user ID
-  5b. To get someone else's user ID -> right click on their profile picture or view their profile and press the three dots > copy user ID
-  5c. To get a server ID -> right click the server icon on the left with your list of servers > copy server ID
+- To get your user ID -> Click your profile in the bottom left > copy user ID
+- To get someone else's user ID -> right click on their profile picture or view their profile and press the three dots > copy user ID
+- To get a server ID -> right click the server icon on the left with your list of servers > copy server ID
 6. Once you paste the script, you will need to enter the user ID and server IDs in the UI
 7. You can track what the script is doing inside the console window. Once it is done, it will export a chats.json file to your default downloads folder.
 8. You can view this file as is, or use it in the GUI application included in this repo. To use the GUI app with this script, follow the instructions below
@@ -147,8 +147,8 @@ How to use this script (read all steps before proceeding):
 1. Click the green *code* button in the top right > download ZIP
 2. Extract the downloaded ZIP file to a folder on your computer
 3. Open a terminal inside that extracted folder. When using dir (Windows) or ls (Linux), you should see the README and discord_viewer/ directory
-  a. Right click on the folder containing these files > open in terminal
-  b. or use **cd <path>** (e.g. **cd **C:\Repos\discordChatDump"** )
+- Right click on the folder containing these files > open in terminal
+- or use **cd <path>** (e.g. **cd **C:\Repos\discordChatDump"** )
 4. Make sure [Python and required dependencies](#install-requirements) are installed
 5. Place the exported chats.json in the same folder if you haven't already
 6. Run the viewer:
