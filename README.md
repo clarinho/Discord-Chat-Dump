@@ -159,8 +159,7 @@ python -m discord_viewer.main chats.json
 ## Install requirements
 
 1. [Download python 3.10 or newer](https://www.python.org/downloads/) (click the *add to PATH* checkbox on the installer)
-
-  1a. If you are on Windows 10/11, download [HERE](https://www.python.org/ftp/python/3.14.2/python-3.14.2-amd64.exe)
+- If you are on Windows 10/11, download [HERE](https://www.python.org/ftp/python/3.14.2/python-3.14.2-amd64.exe)
 2. Once python is installed, run this command in a terminal
 ```
 pip install pillow
