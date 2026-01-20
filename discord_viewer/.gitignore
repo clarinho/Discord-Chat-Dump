@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+chats.json
+*.json

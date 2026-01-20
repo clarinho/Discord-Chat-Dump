@@ -144,14 +144,31 @@ How to use this script (read all steps before proceeding):
 
 ## How to use GUI Application
 
-1. Click the green *code* button in the top right > download ZIP
-2. Extract the downloaded ZIP file to a folder on your computer
-3. Open a terminal inside that extracted folder. When using dir (Windows) or ls (Linux), you should see the README and discord_viewer/ directory
+1. [Install requirements](#install-requirements)
+2. Click the green *code* button in the top right > download ZIP
+3. Extract the downloaded ZIP file to a folder on your computer
+4. Open a terminal inside that extracted folder. When using dir (Windows) or ls (Linux), you should see the README and discord_viewer/ directory
     - Right click on the folder containing these files > open in terminal
     - or use **cd <path>** (e.g. **cd **C:\Repos\discordChatDump"** )
-4. Make sure [Python and required dependencies](#install-requirements) are installed
 5. Place the exported chats.json in the same folder if you haven't already
-6. Run the viewer:
+6. Your project structure should look like this:
+```
+📁 [folder you extracted project to]/
+├── 📄 .gitignore
+├── 📁 discord_viewer/
+│   ├── 📄 __init__.py
+│   ├── 📄 config.py
+│   ├── 📄 formatters.py
+│   ├── 📄 image_viewer.py
+│   ├── 📄 loader.py
+│   ├── 📄 main.py
+│   ├── 📄 model.py
+│   ├── 📄 model_builder.py
+│   ├── 📄 themes.py
+│   └── 📄 ui.py
+```
+
+7. Run the viewer:
 ```
 python -m discord_viewer.main chats.json
 ```
