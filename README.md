@@ -179,7 +179,7 @@ How to use this script (read all steps before proceeding):
 ## How to use GUI Application
 
 1. [Install requirements](#install-requirements)
-2. Click the green *code* button in the top right > download ZIP
+2. Click the green *code* button in the top right of **THIS GITHUB PAGE** > download ZIP
 3. Extract the downloaded ZIP file to a folder on your computer
 4. Open a terminal inside that extracted folder. When using **dir** command (Windows) or **ls** command (Linux), you should see the README and discord_viewer/ directory
     - Right click on the folder containing these files > open in terminal
@@ -925,6 +925,7 @@ Public License instead of this License.  But first, please read
 
 
 </details>
+
 
 
 
