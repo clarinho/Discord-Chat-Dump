@@ -1,4 +1,6 @@
-## Discord-Chat-Dump
+# Discord-Chat-Dump
+
+## READ EVERYTHING BEFORE DOING ANYTHING. THEN WHILE STARTING TO DO THINGS, READ AGAIN
 
 How to use this script (read all steps before proceeding):
 0. Go to Discord (app or website)
@@ -925,6 +927,7 @@ Public License instead of this License.  But first, please read
 
 
 </details>
+
 
 
 
