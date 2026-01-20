@@ -227,11 +227,13 @@ pip install pillow
 
 ## Problems
 
-**To get Ctrl + Shift + I to work, do ONE of these:**
+**To get Ctrl + Shift + I to work, do __ONE__ of these:**
 
-1. Download the [ptb client](https://discord.com/api/downloads/distributions/app/installers/latest?channel=ptb&platform=win&arch=x64)
-2. Log in to Discord in the browser and do it there.
-3. Setting **"DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true** in *%appdata%/discord/settings.json*. 
+  - Log in to Discord in the browser and do it there.
+**OR**
+  - Download the [ptb client](https://discord.com/api/downloads/distributions/app/installers/latest?channel=ptb&platform=win&arch=x64)
+**OR**
+  - Setting **"DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true** in *%appdata%/discord/settings.json*. 
 
 
 ## License (GPL-3.0)
@@ -919,6 +921,7 @@ Public License instead of this License.  But first, please read
 
 
 </details>
+
 
 
 
