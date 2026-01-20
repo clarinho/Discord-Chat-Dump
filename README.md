@@ -5,9 +5,10 @@
 How to use this script (read all steps before proceeding):
 
 0. Go to Discord (app or website)
-1. Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> to open DevTools (Read [THIS](#problems) if your Ctrl+shift+I does not work)
-2. Go to the `Console` tab
-3. Paste the following code and hit enter:
+1. Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> to open DevTools
+    - (Read [THIS](#problems) if your Ctrl+shift+I does not work)
+3. Go to the `Console` tab
+4. Paste the following code and hit enter:
 <details>
 	<summary>Click to expand</summary>
 
@@ -928,6 +929,7 @@ Public License instead of this License.  But first, please read
 
 
 </details>
+
 
 
 
