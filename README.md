@@ -2,7 +2,7 @@
 
 How to use this script (read all steps before proceeding):
 0. Go to Discord (app or website)
-1. Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> to open DevTools
+1. Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> to open DevTools (Read [THIS](#problems) if you Ctrl+shift+I does not work)
 2. Go to the `Console` tab
 3. Paste the following code and hit enter:
 <details>
@@ -225,6 +225,7 @@ pip install pillow
 
   - Yes, there is a risk. However, there are many similar such scripts and clients out there with no reported bans.
 
+## Problems
 
 **To get Ctrl + Shift + I to work, do ONE of these:**
 
@@ -918,6 +919,7 @@ Public License instead of this License.  But first, please read
 
 
 </details>
+
 
 
 
