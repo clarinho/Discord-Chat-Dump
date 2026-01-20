@@ -147,14 +147,17 @@ How to use this script (read all steps before proceeding):
 1. [Install requirements](#install-requirements)
 2. Click the green *code* button in the top right > download ZIP
 3. Extract the downloaded ZIP file to a folder on your computer
-4. Open a terminal inside that extracted folder. When using dir (Windows) or ls (Linux), you should see the README and discord_viewer/ directory
+4. Open a terminal inside that extracted folder. When using **dir** command (Windows) or **ls** command (Linux), you should see the README and discord_viewer/ directory
     - Right click on the folder containing these files > open in terminal
     - or use **cd <path>** (e.g. **cd **C:\Repos\discordChatDump"** )
+      <img width="588" height="233" alt="WindowsTerminal_3UDaJVGHHE" src="https://github.com/user-attachments/assets/5be6a416-8a4b-49d6-887e-cfabf1f49638" />
+
 5. Place the exported chats.json in the same folder if you haven't already
 6. Your project structure should look like this:
 ```
 📁 [folder you extracted project to]/
-├── 📄 .gitignore
+├── 📄 README.md
+├── 📄 chats.json
 ├── 📁 discord_viewer/
 │   ├── 📄 __init__.py
 │   ├── 📄 config.py
@@ -881,3 +884,4 @@ Public License instead of this License.  But first, please read
 
 
 </details>
+
