@@ -1,6 +1,6 @@
 ## Discord-Chat-Dump
 
-How to use this script:
+How to use this script (read all steps before proceeding):
 1. Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> to open DevTools
 2. Go to the `Console` tab
 3. Paste the following code and hit enter:
@@ -133,8 +133,14 @@ How to use this script:
 
 (If you're unable to paste into the console, you might have to type `allow pasting` and hit enter)
 
-4. You can track what the script is doing inside the console window. Once it is done, it will export a chats.json file to your default downloads folder.
-5. You can view this file as is, or use it in the GUI application included in this repo. To use the GUI app with this script, follow the instructions below
+4. You will need your user ID and the server IDs of the servers you are scraping. To do this, go to settings in Discord, type 'developer' > click advanced > enable developer mode.
+5. How to get IDs:
+  5a. To get your user ID -> Click your profile in the bottom left > copy user ID
+  5b. To get someone else's user ID -> right click on their profile picture or view their profile and press the three dots > copy user ID
+  5c. To get a server ID -> right click the server icon on the left with your list of servers > copy server ID
+6. Once you paste the script, you will need to enter the user ID and server IDs in the UI
+7. You can track what the script is doing inside the console window. Once it is done, it will export a chats.json file to your default downloads folder.
+8. You can view this file as is, or use it in the GUI application included in this repo. To use the GUI app with this script, follow the instructions below
 
 ## How to use GUI Application
 
