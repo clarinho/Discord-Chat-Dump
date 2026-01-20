@@ -1,6 +1,7 @@
 ## Discord-Chat-Dump
 
 How to use this script (read all steps before proceeding):
+0. Go to Discord (app or website)
 1. Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>I</kbd> to open DevTools
 2. Go to the `Console` tab
 3. Paste the following code and hit enter:
@@ -917,6 +918,7 @@ Public License instead of this License.  But first, please read
 
 
 </details>
+
 
 
 
