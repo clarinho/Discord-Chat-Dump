@@ -136,15 +136,6 @@ How to use this script:
 4. You can track what the script is doing inside the console window. Once it is done, it will export a chats.json file to your default downloads folder.
 5. You can view this file as is, or use it in the GUI application included in this repo. To use the GUI app with this script, follow the instructions below
 
-## Install requirements
-
-1. [Download python 3.10 or newer](https://www.python.org/downloads/) (click the *add to PATH* checkbox on the installer)
-  a. If you are on Windows 10/11, download [HERE](https://www.python.org/ftp/python/3.14.2/python-3.14.2-amd64.exe)
-2. Once python is installed, run this command in a terminal
-```
-pip install pillow
-```
-
 ## How to use GUI Application
 
 1. Click the green *code* button in the top right > download ZIP
@@ -152,11 +143,20 @@ pip install pillow
 3. Open a terminal inside that extracted folder. When using dir (Windows) or ls (Linux), you should see the README and discord_viewer/ directory
   a. Right click on the folder containing these files > open in terminal
   b. or use **cd <path>** (e.g. **cd **C:\Repos\discordChatDump"** )
-4. Make sure Python and required dependencies are installed
+4. Make sure [Python and required dependencies](#install-requirements) are installed
 5. Place the exported chats.json in the same folder if you haven't already
 6. Run the viewer:
 ```
 python -m discord_viewer.main chats.json
+```
+
+## Install requirements
+
+1. [Download python 3.10 or newer](https://www.python.org/downloads/) (click the *add to PATH* checkbox on the installer)
+  a. If you are on Windows 10/11, download [HERE](https://www.python.org/ftp/python/3.14.2/python-3.14.2-amd64.exe)
+2. Once python is installed, run this command in a terminal
+```
+pip install pillow
 ```
 
 ## What to know
