@@ -133,13 +133,31 @@ How to use this script:
 
 (If you're unable to paste into the console, you might have to type `allow pasting` and hit enter)
 
-5. Follow the printed instructions depending on what type of quest you have
-    - If your quest says to "play" the game or watch a video, you can just wait and do nothing
-    - If your quest says to "stream" the game, join a vc with a friend or alt and stream any window
-7. Wait a bit for it to complete the quest
-8. You can now claim the reward!
+4. You can track what the script is doing inside the console window. Once it is done, it will export a chats.json file to your default downloads folder.
+5. You can view this file as is, or use it in the GUI application included in this repo. To use the GUI app with this script, follow the instructions below
 
-You can track the progress by looking at the `Quest progress:` prints in the Console tab, or by looking at the progress bar in the quests tab.
+## Install requirements
+
+1. [Download python 3.10 or newer](https://www.python.org/downloads/) (click the *add to PATH* checkbox on the installer)
+  a. If you are on Windows 10/11, download [HERE](https://www.python.org/ftp/python/3.14.2/python-3.14.2-amd64.exe)
+2. Once python is installed, run this command in a terminal
+```
+pip install pillow
+```
+
+## How to use GUI Application
+
+1. Click the green *code* button in the top right > download ZIP
+2. Extract the downloaded ZIP file to a folder on your computer
+3. Open a terminal inside that extracted folder. When using dir (Windows) or ls (Linux), you should see the README and discord_viewer/ directory
+  a. Right click on the folder containing these files > open in terminal
+  b. or use **cd <path>** (e.g. **cd **C:\Repos\discordChatDump"** )
+4. Make sure Python and required dependencies are installed
+5. Place the exported chats.json in the same folder if you haven't already
+6. Run the viewer:
+```
+python -m discord_viewer.main chats.json
+```
 
 ## What to know
 
