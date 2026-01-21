@@ -34,7 +34,7 @@ How to use this script (read all steps before proceeding):
                     <textarea id="u_guilds" placeholder="ID 1, ID 2, ID 3..." style="width:100%; height:70px; background:#1e1f22; border:1px solid #232428; color:#fff; padding:10px; margin:8px 0 15px 0; border-radius:4px; resize:none; box-sizing:border-box;"></textarea><br>
                     
                     <label style="font-size:12px; font-weight:bold; color:#b5bac1;">MAX MESSAGES PER SERVER</label><br>
-                    <input id="u_max" type="number" value="50" style="width:100%; background:#1e1f22; border:1px solid #232428; color:#fff; padding:10px; margin:8px 0 20px 0; border-radius:4px; box-sizing:border-box;"><br>
+                    <input id="u_max" type="number" value="10" style="width:100%; background:#1e1f22; border:1px solid #232428; color:#fff; padding:10px; margin:8px 0 20px 0; border-radius:4px; box-sizing:border-box;"><br>
                     
                     <button id="start-btn" style="width:100%; background:#5865f2; color:#fff; border:none; padding:12px; border-radius:4px; cursor:pointer; font-weight:bold; font-size:14px; transition: background 0.2s;">Start Extraction</button>
                     <button id="cancel-btn" style="width:100%; background:transparent; color:#fff; border:none; padding:8px; margin-top:5px; cursor:pointer; font-size:12px; text-decoration:underline;">Cancel</button>
@@ -58,7 +58,7 @@ How to use this script (read all steps before proceeding):
                     userId: uId,
                     startDate: uDate,
                     guildIds: uGuilds.split(",").map(id => id.trim()).filter(id => id.length > 0),
-                    maxMsgs: parseInt(document.getElementById("u_max").value) || 50
+                    maxMsgs: parseInt(document.getElementById("u_max").value) || 10
                 };
                 div.remove();
                 resolve(data);
@@ -929,6 +929,7 @@ Public License instead of this License.  But first, please read
 
 
 </details>
+
 
 
 
