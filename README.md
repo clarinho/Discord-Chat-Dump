@@ -1,6 +1,8 @@
 # Discord-Chat-Dump
 
-## READ EVERYTHING BEFORE DOING ANYTHING. THEN WHILE STARTING TO DO THINGS, READ AGAIN
+### Images
+<img width="667" height="434" alt="python_QnzxiZG7mt" src="https://github.com/user-attachments/assets/a9db2f34-4f25-4dee-815b-cb0580c87560" />
+<img width="660" height="836" alt="Discord_Gct3dns4jy" src="https://github.com/user-attachments/assets/cfd6e6a5-33a1-4d8d-8618-e79779b1eeb2" />
 
 How to use this script (read all steps before proceeding):
 
@@ -929,6 +931,7 @@ Public License instead of this License.  But first, please read
 
 
 </details>
+
 
 
 
